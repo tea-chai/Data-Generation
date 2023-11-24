@@ -30,6 +30,6 @@ random_df.insert(0, 'Hour', df.pop('Hour'))
 random_df.insert(0, 'Date', df.pop('Date'))
 
 
-random_df.to_csv('PV_Generated.csv', sep=',')
+random_df.to_csv('PV_Generated2.csv', sep=',')
 
 print("ended");
